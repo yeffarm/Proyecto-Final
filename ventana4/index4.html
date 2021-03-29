@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solicitud de pedido</title>
+    
+</head>
+<body>
+    <h1>SOLICITUD DE PEDIDO</h1>
+ <form id="formulario4">
+    <label for="ids">ID PRODUCTO:</label>
+    <input type="text" value = "id producto" id="ids">
+   <div>
+       <div>
+           <label for="nomProducto">NOMBRE:___</label>
+           <input type="text" id="nomProducto">
+       </div>
+       <label for="pro">PROVEEDOR:</label>
+     <select name="proveedor" id="pro">
+         <option>Colgate</option>
+         <option>GreatValue</option>
+         <option>JabonGuate</option>
+         <option>DosPinos</option>
+         <option>FrescosVerduaras</option>
+   </div>
+     </select>
+     <div>
+         <label for="cantidad">CANTIDAD</label>
+         <input type="number" id="cantidad">
+     </div>
+     <input type="submit"  value = "Realizar pedido"id="botonn"> 
+</form>
+<div>
+    <input type="button" value="Mostrar Pedidos" id="import">
+</div>
+<div id="mostrar"></div>
+    <script>
+        require("./app4.js")
+    </script>
+    
+</body>
+</html>

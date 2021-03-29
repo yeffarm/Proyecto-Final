@@ -1,0 +1,19 @@
+{
+  "name": "SMercado_20007024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.3.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "mysql2": "^2.2.5"
+  }
+}

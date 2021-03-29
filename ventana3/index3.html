@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ventana3</title>
+</head>
+
+<body>
+    <h1>MENU DE EDICION</h1>
+    <form id="formularioP">
+        <div>
+            <label for="nombre">INGRESE NOMBRE:  </label>
+            <input type="text" id="nombre" required>
+        </div>
+        <div>
+            <label for="desc">DESCRIPCION:</label>
+            <input type="text" id="desc" required>
+        </div>
+        <div>
+            <label for="cate">CATEGORIA:</label>
+            <input type="text" id="cate" required>
+        </div>
+        <div>
+            <label for="exis">CANTIDAD</label>
+            <input type="text" id="exis" required>
+        </div>
+        <div>
+            <label for="id">ID Producto</label>
+            <input type="text" id="id" required>
+        </div>
+        
+        <div>
+            <input type="submit" value="Editar producto" id="guardar">
+        </div>
+    </form>
+    
+    <div>
+        <input type="number" value="id a eliminar" id="elim">
+        <input type="button"value="Eliminar producto" id="eli">
+    </div>
+    
+    <script>
+        require('./app3.js')
+    </script>
+</body>
+
+</html>
